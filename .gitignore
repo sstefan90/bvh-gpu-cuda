@@ -1,6 +1,7 @@
 # Build artifacts
 build/
 lbvh_build
+lbvh_mpi
 *.o
 *.a
 
@@ -23,6 +24,7 @@ dist/
 *.nsys-rep
 reports/*.json
 slurm-*.out
+slurm-*.err
 
 # Jupyter
 .ipynb_checkpoints/
@@ -30,3 +32,6 @@ slurm-*.out
 # Report sources (LaTeX, docs)
 latex/
 docs/
+
+sbatch/logs/*
+*.pdf
