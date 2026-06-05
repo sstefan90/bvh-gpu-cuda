@@ -32,6 +32,6 @@ slurm-*.err
 # Report sources (LaTeX, docs)
 latex/
 docs/
-
+final_report_notes.md
 sbatch/logs/*
 *.pdf
